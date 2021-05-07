@@ -23,6 +23,8 @@ Instructions on how to install `WebdriverIO` can be found [here.](https://webdri
 
 ## Configuration
 
+### Currently, this package supports `mocha` and `jasmine` frameworks only
+
 At first, import the service to wdio config file `wdio.conf.js`
 
 ```js

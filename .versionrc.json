@@ -1,0 +1,16 @@
+{
+    "types": [
+      {"type": "feat", "section": "🚀 New Feature"},
+      {"type": "fix", "section": "🐛 Bug Fix"},
+      {"type": "chore", "hidden": true},
+      {"type": "docs", "hidden": true},
+      {"type": "style", "hidden": true},
+      {"type": "refactor", "hidden": true},
+      {"type": "perf", "hidden": true},
+      {"type": "test", "hidden": true}
+    ],
+    "commitUrlFormat": "https://github.com/AutomationReddy/wdio-slacknotify-service/commits/{{hash}}",
+    "compareUrlFormat": "https://github.com/AutomationReddy/wdio-slacknotify-service/compare/{{previousTag}}...{{currentTag}}",
+    "userUrlFormat": "https://github.com/{{user}}",
+    "issueUrlFormat": "https://github.com/AutomationReddy/wdio-slacknotify-service{{id}}"
+  }

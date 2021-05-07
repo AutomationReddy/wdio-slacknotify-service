@@ -4,7 +4,11 @@
   "description": "Webdriverio library to send test results as a slack notification/message to channels",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "cz",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "repository": {
     "type": "git",
@@ -27,7 +31,19 @@
     "Vinod Reddy <vinodkumarv8197@gmail.com>"
   ],
   "dependencies": {
+    "@commitlint/cli": "^12.1.1",
     "@slack/webhook": "^6.0.0",
     "@wdio/cli": "^7.5.7"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^12.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^6.0.0",
+    "standard-version": "^9.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
