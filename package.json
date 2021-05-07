@@ -29,12 +29,5 @@
   "dependencies": {
     "@slack/webhook": "^6.0.0",
     "@wdio/cli": "^7.5.7"
-  },
-  "devDependencies": {
-    "@wdio/local-runner": "^7.5.7",
-    "@wdio/mocha-framework": "^7.5.3",
-    "@wdio/spec-reporter": "^7.5.7",
-    "chromedriver": "^90.0.0",
-    "wdio-chromedriver-service": "^7.0.0"
   }
 }
