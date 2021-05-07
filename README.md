@@ -79,19 +79,19 @@ Default: `Webdriverio Slack Reporter`
 
 ### All Pass
 
-![All Pass](./assets/allpass.png)
+![All Pass](./assets/allpass.PNG)
 
 ### Fail Pass
 
-![Fail Pass](./assets/failpass.png)
+![Fail Pass](./assets/failpass.PNG)
 
 ### Retry Failed
 
-![Retry Failed](./assets/retryfail.png)
+![Retry Failed](./assets/retryfail.PNG)
 
 ### Retry Passed
 
-![Retry Passed](./assets/retrypassed.png)
+![Retry Passed](./assets/retrypassed.PNG)
 
 ---
 
