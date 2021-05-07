@@ -41,7 +41,7 @@ Example:
 export.config = {
     // ...
     services: [
-        ['slack', {
+        [slack, {
             webHookUrl: "<SLACK_WEBHOOK_URL>", // Used to post notification to a particular channel
             notifyOnlyOnFailure: true, // Send notification only on test failure
             messageTitle: "<NOTIFICATION_TITLE>" // Name of the notification
