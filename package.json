@@ -1,6 +1,6 @@
 {
   "name": "wdio-slacknotify-service",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Webdriverio library to send test results as a slack notification/message to channels",
   "main": "src/index.js",
   "scripts": {
