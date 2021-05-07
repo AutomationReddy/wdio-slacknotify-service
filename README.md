@@ -75,6 +75,24 @@ Type: `String` <br/>
 Optional: `YES` <br/>
 Default: `Webdriverio Slack Reporter`
 
+## Screenshots
+
+### All Pass
+
+![All Pass](./assets/allpass.png)
+
+### Fail Pass
+
+![Fail Pass](./assets/failpass.png)
+
+### Retry Failed
+
+![Retry Failed](./assets/retryfail.png)
+
+### Retry Passed
+
+![Retry Passed](./assets/retrypassed.png)
+
 ---
 
 For more information on WebdriverIO see the [homepage](https://webdriver.io).
