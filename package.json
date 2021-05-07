@@ -1,0 +1,40 @@
+{
+  "name": "wdio-slacknotify-service",
+  "version": "1.0.0",
+  "description": "Webdriverio library to send test results as a slack notification/message to channels",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AutomationReddy/wdio-slacknotify-service.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "wdio",
+    "wdio-service",
+    "wdio-plugin",
+    "slack"
+  ],
+  "author": "Vinod Reddy <vinodkumarv8197@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AutomationReddy/wdio-slacknotify-service/issues"
+  },
+  "homepage": "https://github.com/AutomationReddy/wdio-slacknotify-service#readme",
+  "contributors": [
+    "Vinod Reddy <vinodkumarv8197@gmail.com>"
+  ],
+  "dependencies": {
+    "@slack/webhook": "^6.0.0",
+    "@wdio/cli": "^7.5.7"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.5.7",
+    "@wdio/mocha-framework": "^7.5.3",
+    "@wdio/spec-reporter": "^7.5.7",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
