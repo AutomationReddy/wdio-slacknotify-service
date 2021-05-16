@@ -1,3 +1,5 @@
+# Please use wdio-slack-service where I have contributed new features to it: [wdio-slack-service](https://www.npmjs.com/package/wdio-slack-service)
+
 # wdio-slacknotify-service
 Webdriverio library to send test results as a slack notification/message to channels
 
